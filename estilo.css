@@ -1,0 +1,144 @@
+body > h1{
+    text-align: center;
+}
+
+main > label{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.div1 > p{
+    border: dotted red;
+}
+
+.div2 > h1{
+    background-color: rgb(1, 196, 255);
+    width: 50%;
+}
+
+.div3 > p{
+    background-color: rgb(1, 196, 255);
+    padding: 2em;
+}
+
+.div4 > h1{
+    background-color: rgb(1, 196, 255);
+    height: 100px;
+}
+
+.div5 > p{
+    background-color: rgb(1, 196, 255);
+}
+
+.div5 > p:nth-child(2){
+    width: 13%;
+}
+
+.div6 > p{
+    background-color: rgb(1, 196, 255);
+    width: 13%;
+}
+
+.div6 > p:nth-child(2){
+    padding: 2em;
+}
+
+.div7 > p{
+    background-color: rgb(1, 196, 255);
+    width: 13%;
+    padding: 2em;
+}
+
+.div7 > p:nth-child(2){
+    border:30px solid rgb(7, 7, 107);
+}
+
+.div8 > p{
+    background-color: rgb(1, 196, 255);
+    width: 13%;
+    padding: 2em;
+    border:30px solid rgb(7, 7, 107);
+}
+
+.div8 > p:nth-child(2){
+    margin-left: 4em;
+}
+
+.div9 > h1{
+    color: blue;
+}
+
+.div9 > p{
+    color:red;
+}
+
+.div10 > h1{
+    text-align: center;
+}
+
+.div11 > p{
+    text-indent: 30px; /*sangria*/
+}
+
+.div12 > h1{
+    text-transform: uppercase;/*Todo el texto a mayuscula*/
+}
+
+.div12 > p{
+    text-transform: capitalize; /*mayuscula en todas las iniciales*/
+} 
+
+.div13 > h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.div14 > p{
+    font-style: italic;
+}
+
+.div15 > h1{
+    font-size: 50px;
+}
+
+.div16 > p{
+    font-weight: bold;
+}
+
+.div17 > p{
+    font-size: 30px;
+}
+
+.div18 > div{
+    width: 22%;
+}
+
+.div18 > div > h1:nth-child(1){
+    width: 100%;
+    border: 35px solid rgb(255, 255, 255);
+    text-align: center;
+    padding: 1em;
+}
+
+.div18 > div > h1:nth-child(2){
+    width: 100%;
+    border: 35px solid rgb(1, 196, 255);
+    text-align: center;
+    padding: 1em;
+}
+
+.div19{
+    display: block;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border: 35px solid rgb(1, 196, 255);
+    padding: 5em 3em;
+}
+.div19 > div{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(1, 196, 255);
+}
+
+.div19 > div > h1{
+    color:rgb(19, 158, 19);
+}
